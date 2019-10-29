@@ -7,10 +7,10 @@ $sql = "CREATE TABLE `users` (
   `password` varchar(100) NOT NULL
 )";
 
-$host='localhost';
-$username='';
-$password='';
-$dbase='test_sample';
+$host='remotemysql.com';
+$username='MsDngzKUiN';
+$password='0kjXnEk9tc';
+$dbase='MsDngzKUiN';
 
 $conn = mysqli_connect($host,$username,$password,$dbase);
 
