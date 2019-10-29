@@ -7,7 +7,7 @@ $email    = "";
 $errors = array();
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'test_sample');
+$db = mysqli_connect('remotemysql.com', 'MsDngzKUiN', '0kjXnEk9tc', 'MsDngzKUiN');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
